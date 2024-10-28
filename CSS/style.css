@@ -1,0 +1,48 @@
+@media (max-width: 991px){
+    .sidebar{
+        background-color: #c6f7c6bb;
+        backdrop-filter: blur(10px);
+    }
+}
+/* navbar */
+.navbar{
+    background-color: #F5F7FA !important;
+    font-family: 'Inter' !important;
+}
+.navbar-brand{
+    font-family: 'Playfair Display' !important;
+}
+.active{
+    color: #01C608 !important;
+    border-bottom: 2px solid #01C608;
+    font-size: 16px !important;
+    cursor: pointer;
+}
+.nav-link{
+    color: #18191F;
+    font-size: 16px !important;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #01C608 !important;
+    border-bottom: 2px solid #01C608 !important;
+}
+.btn-login{
+    color: #01C608 !important;
+    font-size: 14px !important;
+}
+.btn-sign{
+    background-color: #01C608 !important;
+    font-size: 14px !important;
+}
+
+/* main */
+.main{
+    background-image: url("../Assets/image.svg");
+    background-repeat: no-repeat;
+    background-position: center !important;
+}
+.btn-regi{
+    background-color: #01C608 !important;
+    color: #FFFFFF !important;
+}
