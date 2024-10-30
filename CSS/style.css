@@ -177,3 +177,38 @@
     color: #EFEFEF !important;
     font-family: 'Roboto', sans-serif !important;
 }
+.footer {
+    background-color: #222;
+    color: #DADADA !important;
+    /* padding: 40px 0; */
+}
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif !important;
+}
+.footer p{
+    color: #F5F7FA !important;
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.footer li a{
+    font-family: 'Inter', sans-serif !important;
+}
+.footer li a:hover{
+    color: #01C608 !important;
+}
+.btn-lght{
+    width: 400px !important;
+    background-color: #FFFFFF !important;
+}
+.footer .input-group {
+    max-width: 400px;
+    color: #b8b1b1 !important;
+}
+.footer .form-control{
+    background: none !important;
+}
+.footer .form-control::placeholder{
+    color: #b8b1b1 !important;
+}
