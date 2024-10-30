@@ -12,7 +12,7 @@
 .navbar-brand{
     font-family: 'Playfair Display' !important;
 }
-.active{
+.nav-item .active{
     color: #01C608 !important;
     border-bottom: 2px solid #01C608;
     font-size: 16px !important;
@@ -180,7 +180,6 @@
 .footer {
     background-color: #222;
     color: #DADADA !important;
-    /* padding: 40px 0; */
 }
 .footer h5 {
     font-weight: bold;
@@ -211,4 +210,16 @@
 }
 .footer .form-control::placeholder{
     color: #b8b1b1 !important;
+}
+
+.featre{
+    background-color: #F2FFF3 !important;
+}
+.featre h2{
+    color: #2E2E2E !important;
+}
+.featre p{
+    color: #2E2E2E !important;
+    font-size: 24px !important;
+    font-family: 'Roboto', sans-serif !important;
 }
