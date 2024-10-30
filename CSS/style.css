@@ -42,7 +42,138 @@
     background-repeat: no-repeat;
     background-position: center !important;
 }
+.main h1{
+    color: #353535 !important;
+    font-family: 'Inter' !important;
+}
+.main span{
+    color: #01C608 !important;
+}
+.main p{
+    color: #181818 !important;
+    font-family: 'Inter' !important;
+}
 .btn-regi{
-    background-color: #01C608 !important;
+    background-color: #4DD351 !important;
     color: #FFFFFF !important;
+    font-family: 'Inter' !important;
+}
+.btn-regi:hover{
+    color: #01C608 !important;
+    background: none !important;
+    border: 1px solid #01C608 !important;
+}
+
+/* hero */
+.hero{
+    background-color: #F2FFF3 !important;
+    background-position: center !important;
+}
+.hero h1{
+    color: #353535 !important;
+    font-family: 'Inter' !important;
+}
+.hero h5{
+    font-family: 'Roboto' !important;
+}
+
+/* courses */
+.courses p{
+    color: #18191F !important;
+    font-size: 19px !important;
+    font-family: 'Roboto' !important;
+}
+.Feedback {
+    background-image: url("../Assets/SF_BG.svg") !important;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    min-height: 100vh; 
+    align-items: center; 
+    justify-content: center;
+}
+.Feedback h1 {
+    font-size: 24px;
+    color: #333;
+    font-family: 'Inter', sans-serif !important;
+}
+.Feedback h1 span {
+    color: #28a745;
+}
+.carousel-content {
+    background: url("../Assets/SF_img.svg") no-repeat center center;
+    background-size: cover !important;
+    padding: 70px;
+    max-width: 900px !important;
+    margin: auto;
+}
+.stars iconify-icon {
+    color: gold;
+    font-size: 20px;
+}
+.carousel-content p {
+    color: #FFFFFF !important;
+    font-size: 24px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.carousel-content h5 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #FFFFFF !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(97, 50, 50, 0.979); 
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.carousel-content::after {
+    content: '';
+    display: block;
+    clear: both !important;
+}
+
+@media (max-width: 768px) {
+    .carousel-content {
+        padding: 40px;
+    }
+    .Feedback h1 {
+        font-size: 20px;
+    }
+}
+.blog {
+    background-color: #EEEEEE !important;
+}
+.blog h2 {
+    font-size: 28px;
+    color: #353535 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.card img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
+}
+.card:hover img {
+    transform: scale(1.05);
+}
+.overlay {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
+.card-text {
+    font-size: 21px;
+    color: #EFEFEF !important;
+    font-family: 'Roboto', sans-serif !important;
 }
