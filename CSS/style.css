@@ -1,3 +1,7 @@
+body {
+    background-color: #ffffff !important;
+}
+
 @media (max-width: 991px){
     .sidebar{
         background-color: #c6f7c6bb;
@@ -11,6 +15,9 @@
 }
 .navbar-brand{
     font-family: 'Playfair Display' !important;
+}
+.navbar .navbar-brand span{
+    color: #01C608 !important;
 }
 .nav-item .active{
     color: #01C608 !important;
@@ -222,4 +229,44 @@
     color: #2E2E2E !important;
     font-size: 24px !important;
     font-family: 'Roboto', sans-serif !important;
+}
+
+/* CONTACT */
+.contact-info {
+    background-color: #212529;
+    color: #ffffff;
+    width: 470px;
+    margin-left: 400px !important;
+    height: 470px;
+    align-items: end !important;
+    justify-content: end !important;
+}
+
+.contact-info h4 {
+    color: #ffffff;
+}
+.contact-info a{
+    margin-top: 80px !important;
+}
+.contact-form p{
+    color: #1D1D1D !important;
+    font-size: 24px !important;
+}
+.social-icons a{
+    margin-top: 1rem !important;
+}
+.contact-form .form-control{
+    outline: none !important;
+    border: none;
+}
+.contact-form .form-label {
+    border-bottom: 3px solid #1D1D1D !important;
+    color: #181818 !important;
+    width: 370px !important;
+    font-size: 24px !important;
+}
+.btn-sub{
+    background-color: #05970A !important;
+    color: #FFFFFF !important;
+    font-size: 20px;
 }
