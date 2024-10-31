@@ -230,43 +230,42 @@ body {
     font-size: 24px !important;
     font-family: 'Roboto', sans-serif !important;
 }
-
-/* CONTACT */
-.contact-info {
-    background-color: #212529;
-    color: #ffffff;
-    width: 470px;
-    margin-left: 400px !important;
-    height: 470px;
-    align-items: end !important;
-    justify-content: end !important;
+.text-succe{
+    color: #05970A !important;
 }
-
-.contact-info h4 {
-    color: #ffffff;
+.bg-suce{
+    background-color: #05970A !important;
 }
-.contact-info a{
-    margin-top: 80px !important;
-}
-.contact-form p{
-    color: #1D1D1D !important;
-    font-size: 24px !important;
-}
-.social-icons a{
-    margin-top: 1rem !important;
-}
-.contact-form .form-control{
-    outline: none !important;
-    border: none;
-}
-.contact-form .form-label {
-    border-bottom: 3px solid #1D1D1D !important;
-    color: #181818 !important;
-    width: 370px !important;
-    font-size: 24px !important;
-}
-.btn-sub{
+.btn-succ{
     background-color: #05970A !important;
     color: #FFFFFF !important;
-    font-size: 20px;
+    cursor: pointer;
+}
+.contact-head p{
+    font-size: 22px !important;
+    color: #1D1D1D !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.contact-head .label{
+    font-size: 30px !important;
+    color: #1D1D1D !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+.bg-img{
+    background-image: url("../Assets/candle.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-IMG1{
+    background-image: url("../Assets/QS1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-Img2{
+    background-image: url("../Assets/QS2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.link{
+    color: #05970A !important;
 }

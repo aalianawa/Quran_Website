@@ -11,6 +11,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
     <!-- style link -->
     <link rel="stylesheet" href="../CSS/style.css">
@@ -26,7 +31,8 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand fs-4" href="#"><span>T</span>aleem<span>-</span>Al<span>-</span><span>Q</span>uran</a>
+            <a class="navbar-brand fs-4"
+                href="#"><span>T</span>aleem<span>-</span>Al<span>-</span><span>Q</span>uran</a>
             <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -60,8 +66,9 @@
 
                     <!-- login/signup -->
                     <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
-                        <a href="#login" class="text-black btn-login text-decoration-none">Login</a>
-                        <a href="#signup" class="text-white btn-sign text-decoration-none px-3 py-2 rounded-1">Sign
+                        <a href="/Pages/login.html" class="text-black btn-login text-decoration-none">Login</a>
+                        <a href="/Pages/signin.html"
+                            class="text-white btn-sign text-decoration-none px-3 py-2 rounded-1">Sign
                             Up</a>
                     </div>
                 </div>
@@ -69,51 +76,80 @@
         </div>
     </nav>
 
-    <!-- CONTACT -->
-    <div class="container-fluid py-5 mt-5">
-        <div class="row g-4 align-items-center justify-content-center">
-            <!-- Contact Form -->
-            <div class="col-md-4 mx-5">
-                <div class="contact-form align-items-center justify-content-center">
-                    <h3 class="fw-bold fs-1">Contact <span style="color: #28a745;">Us</span></h3>
-                    <p>Feel free to contact us anytime. We will get back to you as soon as we can...</p>
-                    <form class="mt-4 py-4">
-                        <div class="mb-4">
-                            <label for="fullName" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="fullName" placeholder="Full Name">
-                        </div>
-                        <div class="mb-4">
-                            <label for="fullName" class="form-label">E-mail</label>
-                            <input type="email" class="form-control" id="email" placeholder="E-mail">
-                        </div>
-                        <div class="mb-4">
-                            <label for="fullName" class="form-label">Message</label>
-                            <textarea class="form-control" placeholder="Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-sub rounded-pill px-5 py-2">Contact Us</button>
-                    </form>
-                </div>
+    <!-- Contact Section Start -->
+    <section class="contact-section container-fluid my-5 position-relative bg-white pe-0 overflow-hidden">
+        <div class="row" style="min-height: 100vh;">
+            <div class="col-lg-9 d-none d-lg-block"></div>
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="h-100 bg-suce">&nbsp;</div>
             </div>
-    
-            <!-- Contact Information -->
-            <div class="col-md-7  align-items-stretch">
-                <div class="contact-info p-4">
-                    <h4 class="text-md-center">Contact Us</h4>
-                    <p class="mb-3"><i class="bi bi-envelope"></i> maryamshahzadxwave@gmail.com</p>
-                    <p class="mb-3"><i class="bi bi-telephone"></i> +923107451622</p>
-                    <p class="mb-3"><i class="bi bi-geo-alt"></i> Layyah, Pakistan</p>
-    
-                    <h5 class="mt-4 text-md-center">Social</h5>
-                    <div class="social-icons">
-                        <a class="text-decoration-none" href="#"><iconify-icon icon="mdi:twitter"></iconify-icon> @MaryamShahzad</a><br>
-                        <a class="text-decoration-none" href="#"><iconify-icon icon="ic:baseline-facebook"></iconify-icon> @MaryamShahzad</a><br>
-                        <a class="text-decoration-none" href="#"><iconify-icon icon="mdi:youtube"></iconify-icon>@Maryamxwave</a><br>
-                        <a class="text-decoration-none" href="#"><iconify-icon icon="mdi:instagram"></iconify-icon> @Maryamxwave</a>
+        </div>
+        <div class="row justify-content-between position-absolute top-0 w-100 py-5 px-3 px-lg-5">
+            <!-- Contact Form Section -->
+            <div class="col-12 col-md-6 col-lg-4 mb-5 order-2 order-md-1">
+                <div class="contact-head">
+                    <h1 class="display-5 fw-bold">Contact <span class="text-succe">Us</span></h1>
+                    <p>Feel free to contact us any time. We will get back to you as soon as we can...</p>
+                </div>
+                <form id="contactForm">
+                    <div class="d-flex flex-column mb-3">
+                        <label for="usrName">Full Name</label>
+                        <input type="text" id="usrName" class="border-0 px-2"
+                            style="border-bottom: 2px solid black !important;" required>
+                    </div>
+                    <div class="d-flex flex-column mb-3">
+                        <label for="usrEmail">E-mail</label>
+                        <input type="email" id="usrEmail" class="border-0 px-2"
+                            style="border-bottom: 2px solid black !important;" required>
+                    </div>
+                    <div class="d-flex flex-column mb-4">
+                        <label for="usrMessage">Message</label>
+                        <input type="text" id="usrMessage" class="border-0 px-2"
+                            style="border-bottom: 2px solid black !important;" required>
+                    </div>
+                    <button type="submit" class="btn btn-succ mb-5 rounded-pill py-2 text-center w-75 w-lg-50">Contact
+                        Us</button>
+                </form>
+            </div>
+
+            <!-- Contact Information Section -->
+            <div class="col-12 col-md-6 col-lg-6 p-4 p-lg-5 bg-dark text-white order-1 order-md-2 mb-4 mb-md-0">
+                <div class="container mb-4">
+                    <h5 class="pb-3">Contact Us</h5>
+                    <div>
+                        <div class="my-2">
+                            <span class="fs-6 d-flex gap-2 align-items-center"><iconify-icon icon="material-symbols:mail-outline"></iconify-icon>&nbsp;maryamshahzadxwave@gmail.com</span>
+                        </div>
+                        <div class="my-2">
+                            <span class="fs-6 d-flex gap-2 align-items-center"><iconify-icon icon="ic:baseline-phone"></iconify-icon>&nbsp;+923107451622</span>
+                        </div>
+                        <div class="my-2">
+                            <span class="fs-6 d-flex gap-2 align-items-center"><iconify-icon icon="streamline:location-compass-1"></iconify-icon>&nbsp;Layyah, Pakistan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h5 class="pb-3">Social</h5>
+                    <div>
+                        <div class="my-2">
+                            <span class="fs-6 d-flex gap-2 align-items-center"><iconify-icon icon="mdi:twitter"></iconify-icon>&nbsp;@MaryamShahzad</span>
+                        </div>
+                        <div class="my-2">
+                            <span class="fs-6 d-flex gap-2 align-items-center"><iconify-icon icon="ic:baseline-facebook"></iconify-icon>&nbsp;@MaryamShahzad</span>
+                        </div>
+                        <div class="my-2">
+                            <span class="fs-6 d-flex gap-2 align-items-center"><iconify-icon icon="mdi:youtube"></iconify-icon>&nbsp;@Maryamxwave</span>
+                        </div>
+                        <div class="my-2">
+                            <span class="fs-6 d-flex gap-2 align-items-center"><iconify-icon icon="mdi:instagram"></iconify-icon>&nbsp;@Maryamxwave</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Contact Section Ends -->
+
 
     <!-- FOOTER -->
     <footer class="footer mt-5 py-5">
